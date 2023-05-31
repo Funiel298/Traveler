@@ -1,0 +1,134 @@
+.head{
+  /* background-image: url('../pages/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; */
+  width: 100%;
+  height: 49vw;
+  
+}
+
+.image{
+  z-index: -100;
+  width: auto;
+  height: auto;
+  position: absolute;
+}
+
+
+
+
+.information{
+  font-size: 1.4rem;
+  width: 40rem;
+  font-weight: 600;
+  color: rgb(237, 237, 237);;
+}
+
+.title{
+  font-size: 3rem;
+  font-weight: 800;
+  color: rgb(237, 237, 237);;
+  margin-bottom: 10px;
+}
+
+.text{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  margin-top: 20rem;
+}
+.login_button, .reg_button{
+  background-color: rgb(237, 237, 237);;
+  border-radius: 20px;
+  
+  padding: 10px;
+  margin: 20px;
+  width: 6rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.login_button{
+  border: none;
+}
+
+.login_button:hover{
+  color: rgb(237, 237, 237);;
+  background-color: #20343b;
+  transition: 0.2s;
+}
+
+.reg_button{
+  border: solid;
+  border-color: #20343b;
+  
+  background-color: transparent;
+  color: rgb(237, 237, 237);  
+}
+
+.reg_button:hover{
+  border-color: rgb(237, 237, 237);;
+  background-color: rgb(237, 237, 237);;
+  color: #20343b;  
+  transition: 0.2s;
+}
+
+
+.cards{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+.span{
+  color: #20343b;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.inputer{
+  border-width: 0px 0px 2px 0px;
+  border-color: #000000;
+  padding: 10px 10px 10px 0px;
+  width: 50%;
+  color: #20343b;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+.inputer{
+  outline: none;
+
+}
+
+.actionButton{
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #20343b;
+  color: white;
+  cursor: pointer ;
+}
+
+@media only screen and (max-width: 600px){
+  .head{
+    width: 100%;
+    margin-bottom: 100vw;
+  }
+  .cards{
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}

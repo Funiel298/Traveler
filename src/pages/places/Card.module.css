@@ -1,0 +1,93 @@
+.head{
+    background-color: rgba(23, 86, 0, 0.8);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 30vw;
+    height: 10vw;
+    flex-direction: row;
+    text-decoration: none;
+    color: aliceblue;
+    overflow: hidden;
+}
+
+.text{
+    padding: 10px;
+    display: flex;
+    color: black;
+    text-decoration: none;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 50%;
+}
+.image{
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+    margin-top: 7rem;
+    height: 35vw;
+}
+.link{
+    text-decoration: none;
+}
+.image{
+    width: 200px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 75vh;
+}
+.search{
+    margin: 2rem;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: large;
+    width: 97%;
+    position: absolute;
+
+}
+
+.button{
+    padding: 10px;
+    border: none;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.ifRendering{
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 10%;
+}
+.buttons{
+    position: fixed;
+}
+
+.image_class{
+    position: relative;
+    width: 40%;
+    height: 80%;
+}
+@media screen and (max-width: 600px){
+    .head{
+        width: 95vw;
+        height: 50vw;
+    }
+    .grid{
+        height: 100%;
+    }
+}

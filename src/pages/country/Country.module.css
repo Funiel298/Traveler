@@ -1,0 +1,75 @@
+.fisrtsection, .text{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+    margin: 5rem;
+}
+.text{
+    flex-direction: column;
+    align-items: start;
+}
+.download_section{
+  position: relative;
+    width: 60%;
+    height: 400px;
+    object-fit: cover;
+}
+.secondsection{
+    padding: 10px;
+    margin: 20px;
+}
+.slider{
+    padding: 10px;
+    width: 100vw;
+    margin-left: 2%;
+}
+  /* the slides */
+  .slick-slide > .card {
+    margin: 0 10px;
+  }
+  .slick-list {
+    margin: 0 -10px;
+  }
+  .card{
+    margin: 20px;
+  }
+  .beauty{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+  }
+
+  .textik{
+    width: 50%;
+  }
+
+  @media screen and (max-width: 600px){
+    .fisrtsection{
+      flex-direction: column;
+      overflow: visible;
+    }
+    .text{
+      width: 100vw;
+      
+    }
+    .download_section{
+      position: relative;
+      width: 90vw;
+      height: 50vw;
+    }
+    .beauty{
+      flex-direction: column;
+    }
+    .secondsection{
+      flex-direction: column;
+    }
+    .textik{
+      width: 100%;
+    }
+    .slider{
+      width: 100vh;
+    }
+  }

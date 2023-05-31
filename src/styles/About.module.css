@@ -1,0 +1,100 @@
+.head, .text{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.head{
+    flex-direction: row;
+    height: 80vh;
+    padding: 20px;
+}
+.text{
+    flex-direction: column;
+    width: 25%;
+    text-align: center;
+}
+.missions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    overflow: visible;
+}  
+.image{
+    width: 100%;
+}
+.card{
+    width: 30%;
+    box-shadow: -1px 4px 35px 1px rgba(105, 110, 114, 0.54);
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.title{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.explore_button{
+    background-color: #20343b;
+    border-radius: 20px;
+    border: solid;
+    border-color: #20343b;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    width: 6rem;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+
+.explore_button:hover{
+    border: solid;
+    border-color: #20343b;
+    background-color: white;
+    color: #20343b;  
+    transition: 0.2s;
+}
+
+.div_class{
+    position: relative;
+    width: 500px;
+    height: 420px;
+}
+
+@media screen and (max-width: 600px) {
+    .div_class{
+        width: 200px;
+        height: 200px;
+    }
+    .head{
+        flex-direction: column;
+    }
+    .text{
+        width: 100%;
+    }
+    .cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: visible;
+    }
+    .card{
+        width: 80%;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        box-shadow: 4px 4px 80px 0px rgba(34, 60, 80, 0.2);
+    }
+    .title{
+        margin-top: 70px;
+    }
+}
