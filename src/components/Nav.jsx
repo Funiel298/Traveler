@@ -3,6 +3,7 @@ import Union from '/public/Union.png'
 import Union1 from '/public/Union1.png'
 import Image from 'next/image'
 import Link from 'next/link'
+import Head from 'next/head'
 
 
 function List({title, link1, link2, link3}){
@@ -24,6 +25,9 @@ export default function Nav({children, head}){
 
     return(
         <>
+            <Head>
+                <title>Traveler</title>
+            </Head>
             <header className={ head=='absolute' ? styles.headak : styles.header}>
                 <nav className={styles.navigation}>
                      <Link href={'/'}><Image src={ head=='absolute' ? Union : Union1} priority alt="logo" width={40} /></Link>
