@@ -13,8 +13,13 @@ export default function Info({card}){
                     code={card.code} 
                     moneyName={card.currency.name} 
                     moneyCode={card.currency.code}  
-                    capital={card.capital} region={card.region} >
-                        
+                    capital={card.capital} 
+                    region={card.region} 
+                    littleInformation={card.littleInformation}
+                    geography={card.geography}
+                    >
+                    
+
                 </Country>
             ))}
             {/* code, capital, region, moneyCode, moneyName, symbol */}

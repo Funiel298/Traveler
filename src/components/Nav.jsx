@@ -51,7 +51,7 @@ export default function Nav({children, head}){
                 <List title={'Menu'} link1={'About'} link2={'Explore'} link3={'Places'} />
                 <List title={'Get in Touch'} link1={'traveler@gmail.com'} link2={'support.traveler@gmail.org'} link3={'app.traveler@bk.com'} />
                 <List title={'Social Media'} link1={'Instagram'} link2={'Linkedin'} link3={'Facebook'} />
-            </footer> 
+            </footer>
         </>
     )
 }
