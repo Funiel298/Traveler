@@ -1,4 +1,4 @@
-const countrysideImages = [
+export const countrysideImages = [
   {
     name: "Switzerland",
     code: "CH",
